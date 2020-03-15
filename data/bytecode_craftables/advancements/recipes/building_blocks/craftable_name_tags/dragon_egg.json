@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_obsidian": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:obsidian"
+                    }
+                ]
+            }
+        },
+        "has_egg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:egg"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_obsidian",
+            "has_egg"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "bytecode_craftables:dragon_egg"
+        ]
+    }
+}
