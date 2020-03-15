@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "result": {
+        "item": "minecraft:elytra",
+        "count": 1
+    },
+    "pattern": [
+        "LDL",
+        "L L",
+        "L L"
+    ],
+    "key": {
+        "L": {
+            "item": "minecraft:leather"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        }
+    }
+}
