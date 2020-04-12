@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_cod": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cod"
+                    }
+                ]
+            }
+        },
+        "has_egg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:egg"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_cod",
+            "has_egg"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "bytecode_craftables:cat"
+        ]
+    }
+}
