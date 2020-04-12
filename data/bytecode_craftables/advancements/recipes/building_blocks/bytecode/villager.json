@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_emeraldblock": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:emerald_block"
+                    }
+                ]
+            }
+        },
+        "has_egg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:egg"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_emeraldblock",
+            "has_egg"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "bytecode_craftables:villager"
+        ]
+    }
+}
