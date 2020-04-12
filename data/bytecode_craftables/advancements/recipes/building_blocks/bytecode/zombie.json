@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_rottenflesh": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:rotten_flesh"
+                    }
+                ]
+            }
+        },
+        "has_egg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:egg"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_rottenflesh",
+            "has_egg"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "bytecode_craftables:zombie"
+        ]
+    }
+}
