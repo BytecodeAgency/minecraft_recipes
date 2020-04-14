@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "result": {
+        "item": "minecraft:wither_skeleton_spawn_egg",
+        "count": 1
+    },
+    "pattern": [
+        "EEE",
+        "ESE",
+        "EEE"
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        }
+    }
+}
